@@ -23,9 +23,8 @@ function click () {
     secondNum = Math.abs(secondNum)
   }
 
-  for (counter = 0; counter < firstNum; counter++)
-  { 
-  answer = answer + secondNum
+  for (counter = 0; counter < firstNum; counter++) {
+    answer = answer + secondNum
   }
   document.getElementById('answer').innerHTML = answer
 }
